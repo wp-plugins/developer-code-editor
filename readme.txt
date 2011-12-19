@@ -1,9 +1,9 @@
 === Plugin Name ===
 Contributors: MyWebsiteAdvisor, ChrisHurst
-Tags: admin, plugin, developer, options, codemirror
+Tags: admin, plugin, developer, options
 Requires at least: 2.9
 Tested up to: 3.3
-Stable tag: 1.0
+Stable tag: 1.1
 
 Plugin for WordPress Developers to enhance Theme and Plugin Editors on their WordPress site.
 
@@ -17,7 +17,6 @@ Uses the Codemirror library to make the default theme and plugin editors for wor
 Developer Website: http://MyWebsiteAdvisor.com
 
 Plugin Page: http://mywebsiteadvisor.com/tools/wordpress-plugins/developer-code-editor/
-
 
 
 Requirements:
@@ -57,3 +56,6 @@ Developer Website: http://MyWebsiteAdvisor.com
 = 1.0 =
 * Initial release
 
+
+= 1.1 =
+* Fixed minor bugs

@@ -3,7 +3,7 @@
 Plugin Name: Developer Code Editor
 Plugin URI: http://MyWebsiteAdvisor.com
 Description: Plugin for developers to enhance default wordpress code editor.
-Version: 1.0
+Version: 1.1
 Author: MyWebsiteAdvisor
 Author URI: http://MyWebsiteAdvisor.com
 */

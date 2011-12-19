@@ -103,19 +103,22 @@ class Developer_Code_Editor_Admin extends Developer_Code_Editor {
 	
 	<?
 	}
+  
 	
 	function add_codemirror_js(){ ?>
 		<!-- Codemirror JS Start -->
 		<script language="javascript" src="<?php echo WP_PLUGIN_URL.'/'.str_replace(basename( __FILE__),"",plugin_basename(__FILE__)); ?>codemirror/codemirror.js"></script>
+      		<script language="javascript" src="<?php echo WP_PLUGIN_URL.'/'.str_replace(basename( __FILE__),"",plugin_basename(__FILE__)); ?>codemirror/javascript/javascript.js"></script>
 		<script language="javascript" src="<?php echo WP_PLUGIN_URL.'/'.str_replace(basename( __FILE__),"",plugin_basename(__FILE__)); ?>codemirror/css/css.js"></script>
-		<script language="javascript" src="<?php echo WP_PLUGIN_URL.'/'.str_replace(basename( __FILE__),"",plugin_basename(__FILE__)); ?>codemirror/php/php.js"></script>	
+		<script language="javascript" src="<?php echo WP_PLUGIN_URL.'/'.str_replace(basename( __FILE__),"",plugin_basename(__FILE__)); ?>codemirror/php/php.js"></script>
+      		<script language="javascript" src="<?php echo WP_PLUGIN_URL.'/'.str_replace(basename( __FILE__),"",plugin_basename(__FILE__)); ?>codemirror/xml/xml.js"></script>
 	      <!-- Codemirror JS End -->	
 	
 	<?
 	}
 	
 	
-
+  
   	function edable_code_mirror(){
     		add_action('admin_footer', array($this, 'print_code_mirror'));
     	
@@ -126,10 +129,12 @@ class Developer_Code_Editor_Admin extends Developer_Code_Editor {
 	<script language="javascript">
       		var editor = CodeMirror.fromTextArea(document.getElementById("newcontent"), { 
       			lineWrapping: 'true',
-      			lineNumbers: 'true'
-    		});
+      			lineNumbers: 'true',
+ 			mode: "application/x-httpd-php"   	
+    	});
     	</script>
 	<?
+      
 	}
 
 
