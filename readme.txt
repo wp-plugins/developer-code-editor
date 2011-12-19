@@ -1,6 +1,6 @@
 === Plugin Name ===
 Contributors: MyWebsiteAdvisor, ChrisHurst
-Tags: admin, plugin, developer, options
+Tags: admin, plugin, developer, options, codemirror
 Requires at least: 2.9
 Tested up to: 3.3
 Stable tag: 1.0
@@ -16,6 +16,8 @@ Uses the Codemirror library to make the default theme and plugin editors for wor
 
 Developer Website: http://MyWebsiteAdvisor.com
 
+Plugin Page: http://mywebsiteadvisor.com/tools/wordpress-plugins/developer-code-editor/
+
 
 
 Requirements:
@@ -30,7 +32,7 @@ To-do:
 
 == Installation ==
 
-1. Upload `developer-code-editor/` to the `/wp-content/plugins/` directory.
+1. Upload 'developer-code-editor/' to the '/wp-content/plugins/' directory.
 1. Activate the plugin through the 'Plugins' menu in WordPress.
 1. Go to plugin settings and select fonts.
 
