@@ -1,6 +1,6 @@
 === Plugin Name ===
 Contributors: MyWebsiteAdvisor, ChrisHurst
-Tags: admin, plugin, developer, options
+Tags: admin, plugin, developer, editor, edit
 Requires at least: 2.9
 Tested up to: 3.3
 Stable tag: 1.1
