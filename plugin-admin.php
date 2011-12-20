@@ -119,7 +119,7 @@ class Developer_Code_Editor_Admin extends Developer_Code_Editor {
 	
 	
   
-  	function edable_code_mirror(){
+  	function enable_code_mirror(){
     		add_action('admin_footer', array($this, 'print_code_mirror'));
     	
   	}

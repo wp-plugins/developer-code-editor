@@ -3,7 +3,7 @@ Contributors: MyWebsiteAdvisor, ChrisHurst
 Tags: admin, plugin, developer, editor, edit
 Requires at least: 2.9
 Tested up to: 3.3
-Stable tag: 1.1
+Stable tag: 1.2
 
 Plugin for WordPress Developers to enhance Theme and Plugin Editors on their WordPress site.
 
@@ -58,4 +58,7 @@ Developer Website: http://MyWebsiteAdvisor.com
 
 
 = 1.1 =
+* Fixed minor bugs
+
+= 1.2 =
 * Fixed minor bugs
