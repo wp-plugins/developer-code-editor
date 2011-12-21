@@ -72,7 +72,7 @@ class Developer_Code_Editor_Admin extends Developer_Code_Editor {
 	 * Add links on installed plugin list
 	 */
 	public function add_plugin_links($links, $file) {
-		if($file == plugin_basename(TW_LOADER)) {
+		if($file == plugin_basename(DCE_LOADER)) {
 			$links[] = '<a href="http://MyWebsiteAdvisor.com">Premium Plugins</a>';
 		}
 		
@@ -129,8 +129,7 @@ class Developer_Code_Editor_Admin extends Developer_Code_Editor {
 	<script language="javascript">
       		var editor = CodeMirror.fromTextArea(document.getElementById("newcontent"), { 
       			lineWrapping: 'true',
-      			lineNumbers: 'true',
- 			mode: "application/x-httpd-php"   	
+      			lineNumbers: 'true'  	
     	});
     	</script>
 	<?
