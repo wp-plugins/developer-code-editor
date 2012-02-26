@@ -1,4 +1,4 @@
-<?
+<?php
 
 class Developer_Code_Editor_Admin extends Developer_Code_Editor {
 	/**
@@ -101,7 +101,7 @@ class Developer_Code_Editor_Admin extends Developer_Code_Editor {
 		<link type="text/css" rel="stylesheet" href="<?php echo WP_PLUGIN_URL.'/'.str_replace(basename( __FILE__),"",plugin_basename(__FILE__)); ?>codemirror/default.css"></link>
 		<!-- Codemirror CSS End -->	
 	
-	<?
+	<?php
 	}
   
 	
@@ -132,7 +132,7 @@ class Developer_Code_Editor_Admin extends Developer_Code_Editor {
       			lineNumbers: 'true'  	
     	});
     	</script>
-	<?
+	<?php
       
 	}
 
